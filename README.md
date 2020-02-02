@@ -9,6 +9,7 @@ Return a weather forecast based on user's input location
 * Uses [mapbox.com](mapbox.com) for forward geocoding
 * Uses [darksky.net](darksky.net) to return the weather forecast for a given town/place.
 * Uses [npm hbs](https://www.npmjs.com/package/hbs) as the Express.js view engine for [handlebars.js](https://handlebarsjs.com/)
+* Uses the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to make an async call
 
 ## Setup
 
