@@ -9,7 +9,7 @@ const geocode = (address, callback) => {
             callback('Unable to connect to Mapbox API')
         } else if (body.error) {
             callback(body.error)
-        } else if (body.features.length == 0) {
+        } else if (!body.features || body.features.length == 0) {
             callback('Unable to find location. Try another search.')
         } else {
             callback(undefined, {
