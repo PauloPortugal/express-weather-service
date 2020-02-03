@@ -19,11 +19,21 @@ Return a weather forecast based on user's input location
 
 ## How to execute
 
-1. Run command line:
+1. From the command line:
 ```
-node src/app.js
+npm run start
 ```
 2. Navigate to the browser:
 ```
 http://localhost:3000
+```
+
+## Heroku integration
+
+Useful commands:
+
+```
+   heroku login
+   heroku keys:add
+   heroku create <UNIQE_NAME>
 ```
