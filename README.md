@@ -21,7 +21,11 @@ Return a weather forecast based on user's input location
 
 1. From the command line:
 ```
+# On normal node mode
 npm run start
+
+# On nodemon mode
+npm run dev
 ```
 2. Navigate to the browser:
 ```
