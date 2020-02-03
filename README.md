@@ -35,5 +35,6 @@ Useful commands:
 ```
    heroku login
    heroku keys:add
-   heroku create <UNIQE_NAME>
+   heroku create <UNIQUE_NAME>
+   git push heroku master
 ```
