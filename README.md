@@ -29,7 +29,11 @@ DARKSKY_TOKEN="your-darksky-token" MAPBOX_TOKEN="<your-mapbox-token>"  npm run d
 ```
 2. Navigate to the browser:
 ```
+# Locally
 http://localhost:3000
+
+# Heroku
+https://pmonteiro-weather-service.herokuapp.com/
 ```
 
 ## Heroku integration
